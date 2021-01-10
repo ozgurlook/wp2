@@ -90,7 +90,7 @@ conn.sendMessage(group.gid, "hello everyone", MessageType.extendedText) // say h
 // FF
 if(text.includes("!cek")){
 var num = text.replace(/!cek/ , "")
-var idn = num.replace("0","+62");
+var idn = num.replace("0","+90");
 
 console.log(id);
 const gg = idn+'@s.whatsapp.net'
